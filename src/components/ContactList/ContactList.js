@@ -10,6 +10,7 @@ import {
 } from './ContactList.styled';
 
 function ContactList({ onRemove, findContact }) {
+  console.log(findContact())
   return (
     <ContactsSection>
       <ContTitle>Contacts</ContTitle>

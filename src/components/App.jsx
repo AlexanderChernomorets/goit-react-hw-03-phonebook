@@ -5,7 +5,7 @@ import FilterContact from './FilterContacts/FilterContacts';
 
 class App extends Component {
   state = {
-    contacts: [],
+    contacts: [{ id: 'id-1', name: 'Rosie Simpson', number: '459-12-56' },],
     filter: '',
   };
 
