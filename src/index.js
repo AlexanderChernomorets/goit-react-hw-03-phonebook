@@ -4,7 +4,7 @@ import App  from 'components/App';
 import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode basename="/https://alexanderchernomorets.github.io/goit-react-hw-03-phonebook/">
+  <React.StrictMode>
     <App />
   </React.StrictMode>
 );
