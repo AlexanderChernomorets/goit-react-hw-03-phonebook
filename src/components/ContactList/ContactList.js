@@ -14,7 +14,7 @@ function ContactList({ onRemove, findContact }) {
     <ContactsSection>
       <ContTitle>Contacts</ContTitle>
       <ContList>
-        {findContact().map(({ name, number, id }) => (
+        {findContact.map(({ name, number, id }) => (
           <ContItem key={id}>
             <ContName>{name}: </ContName>
             <ContNum>{number}</ContNum>
