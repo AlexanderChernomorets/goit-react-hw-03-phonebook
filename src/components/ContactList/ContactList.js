@@ -9,7 +9,7 @@ import {
   DelButton,
 } from './ContactList.styled';
 
-function ContactList({ onRemove, findContact }) {
+function ContactList({ onRemove, findContact, list }) {
   console.log(findContact())
   return (
     <ContactsSection>
@@ -27,7 +27,9 @@ function ContactList({ onRemove, findContact }) {
               Delete
             </DelButton>
           </ContItem>
-        ))}
+         
+          
+        ))} 
       </ContList>
     </ContactsSection>
   );
